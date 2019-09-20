@@ -1,0 +1,17 @@
+{
+  "name": "spreadsheet-processing-py",
+  "version": "1.0.0",
+  "description": "google forms fill in the blanks quiz correction using python.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayush Mukherjee",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^6.0.9"
+  },
+  "dependencies": {
+    "python-shell": "^1.0.8"
+  }
+}
