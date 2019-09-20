@@ -56,3 +56,9 @@ def correct_answers(ques_filename, ans_filename):
     # save results book
     res_book.save("Results.xlsx")
 
+quesf = input()
+ansf = input()
+
+prepare_results_workbook(quesf)
+
+correct_answers(quesf, ansf)
