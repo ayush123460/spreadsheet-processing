@@ -1,6 +1,6 @@
 const { PythonShell } = require('python-shell');
 
-const ps = new PythonShell('./spreadsheet.py');
+const ps = new PythonShell('./scripts/spreadsheet.py');
 
 ps.send('Quiz.xlsx');
 ps.send('Answers.xlsx');
